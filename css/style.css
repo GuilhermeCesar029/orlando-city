@@ -122,3 +122,23 @@ header #logotipo {
 	padding: 10px 25px;
 	text-decoration: none;
 }
+
+/*mudar o placeholder */
+#menu li.search ::-webkit-input-placeholder {
+	color: #fff;
+}
+
+#menu li.search input{
+	background-color: #5C2D90;
+	color: #FFF;
+	border: none;
+	height: 30px;
+}
+
+#menu li.search button {
+	background: none;
+	border: none;
+	color: rgba(255, 255, 255, .5);
+	position: absolute;
+	right: 3px;
+}
