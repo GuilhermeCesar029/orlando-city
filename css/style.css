@@ -1,7 +1,9 @@
 header {
     width: 100%;
     height: 150px;
-    background-color: #5E299A;
+    background-color: rgba(94, 41, 154, .8);
+	z-index: 2;
+	position: relative;
 }
 
 header .container{
@@ -141,4 +143,31 @@ header #logotipo {
 	color: rgba(255, 255, 255, .5);
 	position: absolute;
 	right: 3px;
+}
+
+#banner {
+	width: 100%;
+	height: 728px;
+	position: relative;
+	background: url("../img/banner.jpg") no-repeat;
+	background-position: 0px -100px;
+	top: -110px;
+}
+
+#banner h1 {
+	color: #fff;
+	top: 300px;
+	position: relative;
+	font-size: 92px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 50px
+}
+
+#banner h1 small {
+	font-size: 32px;
+	display: block;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 }
